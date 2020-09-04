@@ -1,8 +1,21 @@
 package com.company;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
+
+    static Object[] getInputs() {
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the full year: ");
+        int year = input.nextInt();
+
+        System.out.print("Enter month as a number 1 and 12: ");
+        int month = input.nextInt();
+
+        return new Object[]{year, month};
+    }
 
     static void printMonth(int year, int month) {
         printMonthTitle(year, month);
@@ -13,6 +26,27 @@ public class Main {
         System.out.println("      " + getMonthName(month) + " " + year);
         System.out.println("----------------------------------");
         System.out.println(" Sun Mon Tue Wed Thu Fri Sat");
+    }
+
+    static void printMonthBody(int year, int month) {
+        int startDay = getStartDay(year, month);
+        int numberOfDaysInMonth = getNumberOfDaysInMonth(year, month);
+
+        // pad space before the first day
+
+        int i = 0;
+        for (i = 0; i < startDay; i++) {
+            System.out.print("    ");
+        }
+
+        for (i = 1; i <= numberOfDaysInMonth; i++) {
+            System.out.printf("%4d", i);
+
+            if ((i + startDay) % 7 == 0) {
+                System.out.println();
+            }
+        }
+        System.out.println();
     }
 
     static String getMonthName(int month) {
@@ -71,42 +105,11 @@ public class Main {
         return (totalNumberOfDays + START_DAY_FOR_JAN_1_1800) % 7;
     }
 
-    static void printMonthBody(int year, int month) {
-        int startDay = getStartDay(year, month);
-        int numberOfDaysInMonth = getNumberOfDaysInMonth(year, month);
-
-        // pad space before the first day
-
-        int i = 0;
-        for (i=0; i<startDay; i++) {
-            System.out.print("    ");
-        }
-
-        for (i=1; i <=numberOfDaysInMonth; i++) {
-            System.out.printf("%4d", i);
-
-            if((i + startDay) % 7 == 0) {
-                System.out.println();
-            }
-        }
-        System.out.println();
-    }
-
-    static int[] getInputs() {
-
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter the full year: ");
-        int year = input.nextInt();
-
-        System.out.print("Enter month as a number 1 and 12: ");
-        int month = input.nextInt();
-
-        return new int[] {year, month};
-    }
-
     public static void main(String[] args) {
-        int[] dateInputs = getInputs();
-        printMonth(dateInputs[0], dateInputs[1]);
+        Object[] dateInputs = getInputs();
+        int year = (Integer) dateInputs[0];
+        int month = (Integer) dateInputs[1];
+        printMonth(year, month);
     }
 }
 
