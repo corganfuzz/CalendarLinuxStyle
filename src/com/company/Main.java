@@ -90,21 +90,47 @@ public class Main {
             }
         }
         System.out.println();
-
     }
 
-    public static void main(String[] args) {
+    static int[] getInputs() {
 
         Scanner input = new Scanner(System.in);
-
         System.out.print("Enter the full year: ");
         int year = input.nextInt();
 
         System.out.print("Enter month as a number 1 and 12: ");
         int month = input.nextInt();
 
-        printMonth(year, month);
+        return new int[] {year, month};
+    }
 
-
+    public static void main(String[] args) {
+        int[] dateInputs = getInputs();
+        printMonth(dateInputs[0], dateInputs[1]);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
