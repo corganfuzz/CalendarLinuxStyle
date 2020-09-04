@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="829278e5-6495-4ebc-b87e-2505a7c0cf64" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1h1TGNFxGUunHBRkqHFGkXZN3zg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="CalendarLinuxStyle" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="829278e5-6495-4ebc-b87e-2505a7c0cf64" name="Default Changelist" comment="" />
+      <created>1599177502268</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599177502268</updated>
+      <workItem from="1599177503400" duration="2570000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2082" height="1133" key="GridCell.Tab.0.bottom" timestamp="1599178985260">
+      <screen x="3840" y="0" width="2160" height="3840" />
+    </state>
+    <state width="2082" height="1133" key="GridCell.Tab.0.bottom/0.891.3840.1953/6000.853.3840.2160/3840.0.2160.3840@3840.0.2160.3840" timestamp="1599178985260" />
+    <state width="2082" height="1133" key="GridCell.Tab.0.center" timestamp="1599178985259">
+      <screen x="3840" y="0" width="2160" height="3840" />
+    </state>
+    <state width="2082" height="1133" key="GridCell.Tab.0.center/0.891.3840.1953/6000.853.3840.2160/3840.0.2160.3840@3840.0.2160.3840" timestamp="1599178985259" />
+    <state width="2082" height="1133" key="GridCell.Tab.0.left" timestamp="1599178985259">
+      <screen x="3840" y="0" width="2160" height="3840" />
+    </state>
+    <state width="2082" height="1133" key="GridCell.Tab.0.left/0.891.3840.1953/6000.853.3840.2160/3840.0.2160.3840@3840.0.2160.3840" timestamp="1599178985259" />
+    <state width="2082" height="1133" key="GridCell.Tab.0.right" timestamp="1599178985259">
+      <screen x="3840" y="0" width="2160" height="3840" />
+    </state>
+    <state width="2082" height="1133" key="GridCell.Tab.0.right/0.891.3840.1953/6000.853.3840.2160/3840.0.2160.3840@3840.0.2160.3840" timestamp="1599178985259" />
+    <state x="4151" y="1376" width="1537" height="1091" key="SettingsEditor" timestamp="1599179626012">
+      <screen x="3840" y="0" width="2160" height="3840" />
+    </state>
+    <state x="4151" y="1376" width="1537" height="1091" key="SettingsEditor/0.891.3840.1953/6000.853.3840.2160/3840.0.2160.3840@3840.0.2160.3840" timestamp="1599179626012" />
+    <state x="4402" y="929" key="search.everywhere.popup" timestamp="1599179155822">
+      <screen x="3840" y="0" width="2160" height="3840" />
+    </state>
+    <state x="4402" y="929" key="search.everywhere.popup/0.891.3840.1953/6000.853.3840.2160/3840.0.2160.3840@3840.0.2160.3840" timestamp="1599179155822" />
+  </component>
+</project>
